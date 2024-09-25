@@ -22,6 +22,4 @@ from api.api import api
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('api/', api.urls),
-    path('api/sample/', views.sample_data),
-
 ]
